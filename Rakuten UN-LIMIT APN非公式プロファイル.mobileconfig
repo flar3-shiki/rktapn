@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>本プロファイルは非公式のため、一切のサポートおよび保証はありません。
+このプロファイルを利用したこと、または利用を検討したことによって発生したすべての事象(端末の故障やSIMの破損、料金の請求など全て)について 一切の責任を負うことを私、Kiraはできません。
+また発生した事象について プロファイルを作成したKira、楽天、および楽天モバイルに問い合わせることは出来ません。全て自己の責任において自己解決することに完全に同意できる場合のみインストールしてください。
+</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<array>
+				<dict>
+					<key>DefaultsData</key>
+					<dict>
+						<key>apns</key>
+						<array>
+							<dict>
+								<key>apn</key>
+								<string>rakuten.jp</string>
+							</dict>
+						</array>
+					</dict>
+					<key>DefaultsDomainName</key>
+					<string>com.apple.managedCarrier</string>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Provides customization of carrier Access Point Name.</string>
+			<key>PayloadDisplayName</key>
+			<string>Advanced Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>jp.kira.rktunlimitsh.apn1</string>
+			<key>PayloadOrganization</key>
+			<string>Kira</string>
+			<key>PayloadType</key>
+			<string>com.apple.apn.managed</string>
+			<key>PayloadUUID</key>
+			<string>5E488239-32B8-49D0-A64B-1ACD44FDAF7E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>iPhone Xs/XR 以前のiPhoneでRakuten UN-LIMITを利用する際のAPN設定が含まれる非公式プロファイルです。</string>
+	<key>PayloadDisplayName</key>
+	<string>Rakuten UN-LIMIT APN非公式プロファイル</string>
+	<key>PayloadIdentifier</key>
+	<string>jp.kira.rktunlimitsh</string>
+	<key>PayloadOrganization</key>
+	<string>Kira</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>85460B1C-C0C8-47B6-873A-16E09BEA957A</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
